@@ -1,11 +1,19 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
+
+ const navActiveStyleHandler = ({isActive})=>{
+    console.log(isActive)
+  return { fontSize: isActive ? "60px" : "50px"  }
+ }   
   return (
     <nav>
-        <Link to={'/'}>Home</Link> <br/>
-        <Link to={'/about'}>About</Link>
+        {/* <Link to={'/'}>Home</Link> <br/>
+        <Link to={'/about'}>About</Link> */}
+
+        <NavLink style={navActiveStyleHandler} to={'/'}>Home</NavLink> <br/>
+        <NavLink style={navActiveStyleHandler} to={'/about'}>About</NavLink>
     </nav>
   )
 }

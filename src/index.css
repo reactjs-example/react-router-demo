@@ -20,3 +20,8 @@ nav a{
 nav {
   padding: 20px;
 }
+
+nav b{
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
