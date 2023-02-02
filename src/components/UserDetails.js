@@ -10,6 +10,7 @@ export const UserDetails = () => {
       UserDetails: {params.id} {id} {queryParams.get("status")}
       <br/>
       <button onClick={()=> setQueryParams({})}>Clear Search</button>
+      <button onClick={()=> setQueryParams({status: 'pending'})}>Add Search</button>
     </div>
   );
 };
