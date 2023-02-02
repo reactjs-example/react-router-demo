@@ -7,7 +7,7 @@ export const Users = () => {
     <div>
       Users:
       {users.map((e, i) => {
-        return <Link to={i.toString()}>{e} </Link>;
+        return <Link to={i.toString()+'?status=submitted'}>{e} </Link>;
       })}
       <Outlet/>
     </div>
