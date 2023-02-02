@@ -12,8 +12,9 @@ export const Navbar = () => {
         {/* <Link to={'/'}>Home</Link> <br/>
         <Link to={'/about'}>About</Link> */}
 
-        <NavLink style={navActiveStyleHandler} to={'/'}>Home</NavLink> <br/>
+        <NavLink style={navActiveStyleHandler} to={'/'}>Home</NavLink>
         <NavLink style={navActiveStyleHandler} to={'/about'}>About</NavLink>
+        <NavLink style={navActiveStyleHandler} to={'/products'}>Products</NavLink>
     </nav>
   )
 }
