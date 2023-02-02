@@ -14,6 +14,7 @@ export const Navbar = () => {
 
         <NavLink style={navActiveStyleHandler} to={'/'}>Home</NavLink>
         <NavLink style={navActiveStyleHandler} to={'/about'}>About</NavLink>
+        <NavLink style={navActiveStyleHandler} to={'/users'}>Users</NavLink>
         <NavLink style={navActiveStyleHandler} to={'/products'}>Products</NavLink>
     </nav>
   )
