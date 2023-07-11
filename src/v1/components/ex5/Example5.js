@@ -1,4 +1,4 @@
-import { Link, Route, Router, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import { About, Home, Settings } from "./Pages";
 
 export const Example5 = () => {
