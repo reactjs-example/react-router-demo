@@ -5,6 +5,7 @@ import { Example4 } from "./components/ex4/Example4";
 import { Example5 } from "./components/ex5/Example5";
 import { Example6 } from "./components/ex6/Example";
 import { Example7 } from "./components/ex7/Example";
+import { Example8 } from "./components/ex8/Example";
 
 export const Root = () => {
   let style = {
@@ -21,6 +22,7 @@ export const Root = () => {
         <Example5/>
         <Example6/>
         <Example7/>
+        <Example8/>
       </div>
     </>
   );
