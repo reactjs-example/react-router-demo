@@ -18,7 +18,7 @@ const Home2=()=>{
 
     return <>
     <h2>Home 2</h2>
-    {
+    {  // navigating conditionally
      count===3 && <p><Navigate to="../home"/></p>
     }
 
