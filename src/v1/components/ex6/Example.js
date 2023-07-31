@@ -15,7 +15,7 @@ export const Example6 = () => {
         <Route path="about" element={<About />} />
       </Routes>
       <Routes>
-      <Route path="contact"  element={<Contact />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </>
   );

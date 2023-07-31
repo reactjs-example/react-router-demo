@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { Link, Navigate, Route, Routes } from "react-router-dom"
 
 
@@ -8,8 +9,20 @@ const Home=()=>{
 }
 
 const Home2=()=>{
+   
+    let [count,setCount] = useState(1);
+
+    const increaseCount=()=>{
+        setCount((prevState)=>{return prevState + 1});
+    }
+
     return <>
-    <Navigate replace="home"/>
+    <h2>Home 2</h2>
+    {
+     count===3 && <p><Navigate to="../home"/></p>
+    }
+
+    <button onClick={increaseCount}>Navigate</button>
     </>
 }
 

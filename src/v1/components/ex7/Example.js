@@ -15,6 +15,7 @@ export const Example7 = () => {
             <Route path="books" element={<Books/>}/>
         </Route> */}
         <Route path="author/*" element={<AuthorRoutes />} />
+        {/** AuthorRoutes is a component but defined with Route */}
       </Routes>
     </>
   );
