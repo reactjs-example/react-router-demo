@@ -757,6 +757,7 @@ export { PageRoutes, Nav };
 ```
 ## Define Routes
 
+```jsx
 import { Route, Routes } from "react-router-dom";
 import { Nav, PageRoutes } from "./Pages";
 
@@ -776,3 +777,4 @@ export const Example8 = () => {
   );
 };
 
+```
